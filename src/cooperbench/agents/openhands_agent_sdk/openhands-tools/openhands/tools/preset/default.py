@@ -89,7 +89,7 @@ Your teammate ({teammate_name}) is implementing the other feature in this same c
 
 ## Required workflow
 
-1. Before you write any code, explore the codebase to understand what files you need to change. Then send a message to {teammate_name} listing every file and function you plan to modify:
+1. Before you write any code, explore the codebase to understand what files you need to change. Then send a message to {teammate_name} listing every file you plan to modify and the exact region you will own in each file (function, block, insertion anchor, or line range). Do not edit a shared file until your teammate explicitly acknowledges the split:
    send_message(recipient="{teammate_name}", content="I plan to modify: <list files and functions>")
 
 2. Wait for a reply from {teammate_name}. Their messages will appear automatically in your conversation as [Message from {teammate_name}]: ... — check for overlaps and coordinate if needed.
